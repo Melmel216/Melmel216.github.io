@@ -64,8 +64,6 @@ section.hero .hero-text {
 
 .hero img {
   max-width: 400px;
-  height: 100%;
-  max-width: 400px;
   object-fit: contain;
   border-radius: 15px;
   min-width: 200px;
