@@ -61,6 +61,19 @@ section.hero .hero-text {
   margin: 2rem;
   padding: 1rem;
   border-radius: 15px;
+  width: 40ch;
+}
+
+.hero-text p::before{
+  content: "“";
+  font-size: 2em;
+  color: #fc0db0
+}
+
+.hero-text p::after{
+  content: "”";
+  font-size: 2em;
+  color: #fc0db0
 }
 
 .text-accent {
