@@ -41,6 +41,7 @@ section.hero .hero-text {
   display: flex;
   flex-direction: column;
   font-size: 1.2em;
+  text-align: center;
 }
 
 .hero-text h1 {
@@ -52,6 +53,14 @@ section.hero .hero-text {
 .hero-text h2 {
   font-size: 1.4em;
   margin: 0;
+}
+
+.hero-text p{
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 15px;
 }
 
 .text-accent {
